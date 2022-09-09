@@ -1,0 +1,142 @@
+<html>
+<head>
+    <title>天津大学伪办公网</title>
+    <style>
+    .fontfamily{
+        font-family: serif;
+        font-size: 100px;
+        font-weight: 700;
+    }
+    .font40 {
+        font-size: 40;
+    }
+    .redbox {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(139, 74, 74);
+    }
+    .greenbox {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(206, 189, 79);
+    }
+    .red {
+        /* background-color: orange; */
+        color: rgb(0, 0, 0);
+    }
+    .orange {
+        color: orange;
+    }
+    #天津大学校区总结 {
+        background-color: #26c0eb;
+        color: #d070f0;
+    } 
+    #demo {
+        background-color: #26c0eb;
+        color: #d070f0;
+    }
+    
+    p {
+        color:#f0e170;
+    }
+    </style>
+    <script>
+        // window.setTimeout(function() {
+        //     console.log('时间到了');
+        // }, 5000);
+        
+        var s = 1;
+        console.log('1:', typeof s, s);
+        s = '天津大学';
+        console.log('2:', typeof s, s);
+        s = document.getElementById('demo');   
+        console.log('3:', typeof s, s);
+        var $;
+        // $ = prompt('请输入你的存款数');
+        // alert('你的存款数量为:');
+        // alert($/1000);
+        var a = 1, b = 2;
+        a = a^b;
+        b = a^b;
+        a = a^b;
+        console.log('4: 利用异或交换后a =',a);
+        // var name = "你的名字";
+        // name = prompt('请输入你的名字');
+        // alert('Your name is');
+        // prompt('请输入您的年龄');
+        // alert(i);
+        // console.log('233');
+    </script>
+    <!-- <script src="js/td.js"></script> -->
+</head>
+<body>                                                                   
+    <p> Date() </p> 
+    <button type="button" value="唐伯虎" onclick="document.getElementById('dem').innerHTML = Date()"> 233 </button> 
+    <p id="dem">现在的时间是</p>
+    <img src="i/选课网.png" width="100px" />
+    <form> 
+        请输入密码：<br />
+        <input type="text" name="firstname" />
+    </form>
+    <em color="rgb(1,1,1)">苹果发布会</em>
+    <p>天津大学智能与计算学部</p>
+    <p><b>天津大学智能与计算学部</b></p>
+    <p>天津大学智能与计算学部</p>
+    <h1 class="fontfamily">中华人民共和国</h1>
+    <div class="font40 redbox">红色</div>
+    <div class="greenbox">绿色</div>
+    <div class="redbox">红色</div>
+    <p id="demo"> 天津大学</p>
+    <script>
+    var a = document.getElementById('demo');
+    console.log('4:', typeof a, a);   
+    </script>
+    <h1 class="red">网站目录</h1>
+    <ul>
+        <li>给分高的选修</li>
+        <li><a href="#天津大学校区总结">天津大学校区情况</a></li>    
+        /* href = hypertext reference */ 
+    </ul>
+    <p> 给分高的选修课及其分数 </p>
+    <Table border="15">
+        <hr>课程名称</hr>
+        <hr>大致给分情况</hr>
+        <tr>
+            <td>课程名称</td>
+            <td>给分</td>
+        </tr>
+        <tr>
+            <td class="orange">人类文明史漫谈</td>    
+            <td class="red">100</td>
+        </tr>
+        <tr>
+            <td class="orange">诗情画意谈力学</td>
+            <td class="red">95</td>
+        </tr>
+    </table>
+    <a href="http://classes.tju.edu.cn"><img src="选课网.png" height="200" ismap /></a>
+    <h2> 天津大学选课网 </h2>
+    <p>这是天津大学最重要的网站没有之一，<b>单击图片即可进入</b></p>
+    <a href="http://classes.tju.edu.cn"> <img src="选课网.png" alt="选课网" height="200"/></a>
+        <h1 style="background-color:#e072dc;color:blueviolet">天津大学选课网</h1>
+        <!--这是一个注释?-->
+        <img src="/i/eg_w3school.gif" width="104" height="142" />
+        <hr />
+        <h1 id="天津大学校区总结">天津大学校区总结</h1>
+        <h2>北洋园校区</h2>
+        <p> 位于天津市津南区，为天津大学的新校区 </p>
+        <h2>卫津路校区</h2>
+        <p> 位于天津市南开区，为天津大学的老校区 </p>
+        <hr />
+        <h2>天津大学智能与计算学部</h2>
+        <p>
+            下设专业有： 计算机科学与技术<br />软件工程 人工智能
+        </p>
+        <code> 
+        for(int i = 0; i < 10; i++){
+            sum+=i;
+        }
+    <br /><b>常用来展示计算机代码</b>
+        </code>
+        <img src="纪念堂.png" alt="北洋纪念堂" record="233" />
+</html>
